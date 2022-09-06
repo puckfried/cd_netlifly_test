@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Unser Chatroom</h1>
+      <h1>Mein Chatroom</h1>
       <div>
         <button onClick={() => toggleLogin()}>{user.isLoggedIn ? 'Logout' : 'Login'}</button>
         {
